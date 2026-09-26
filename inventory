@@ -1,0 +1,10 @@
+[apache]
+webserver ansible_host=172.31.13.93
+
+[mysql]
+dbserver ansible_host=172.31.14.167
+
+[all:vars]
+ansible_user=ec2-user
+ansible_python_interpreter=/usr/bin/python3
+
